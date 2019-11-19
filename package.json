@@ -1,9 +1,10 @@
 {
-    "title": "Scrolling Nav",
-    "name": "startbootstrap-scrolling-nav",
+    "title": "Basic Bootstrap Page Template",
+    "name": "basic-bootstrap-page-template",
     "version": "4.2.1",
     "scripts": {
-        "start": "node_modules/.bin/gulp watch"
+        "start": "node_modules/.bin/gulp watch",
+        "build": "node_modules/.bin/gulp build"
     },
     "description": "A smooth scrolling navigation HTML template built with Bootstrap",
     "keywords": [
@@ -14,15 +15,11 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/scrolling-nav",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/issues",
-        "email": "feedback@startbootstrap.com"
-    },
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "Sachin Hamirwasia",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "David Miller (http://davidmiller.io/)",
+        "Sachin Hamirwasia (http://www.asksac.com)"
     ],
     "repository": {
         "type": "git",
