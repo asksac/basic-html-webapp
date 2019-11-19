@@ -8,8 +8,13 @@ To begin using this template, choose one of the following options to get started
 * Clone this repo: `git clone https://github.com/asksac/basic-html-webapp.git`
 * Run npm install: `npm install basic-html-webapp`
 * Execute build: `npm run build`
-* Build Docker image: `docker build -t 'basic-html-webapp' .`
-* Upload image to repository: `docker push basic-html-webapp:latest` 
+* Build Docker image: `docker build -t basic-html-webapp .`
+* Start the container: `docker run -dit --name my-website -p 8080:80 basic-html-webapp:latest`
+
+Visit http://localhost:8080 using a web-browser to see the webapp in action!
+
+To push the image on a remote repository:
+* Upload image via: `docker push basic-html-webapp:latest` 
 
 
 ## Usage
